@@ -14,6 +14,8 @@
 		BEFF2D5B1AEEE18600A5AF23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2D5A1AEEE18600A5AF23 /* Images.xcassets */; };
 		BEFF2D5E1AEEE18600A5AF23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2D5C1AEEE18600A5AF23 /* LaunchScreen.xib */; };
 		BEFF2D6A1AEEE18600A5AF23 /* AlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2D691AEEE18600A5AF23 /* AlistTests.swift */; };
+		BEFF2D741AEEE48100A5AF23 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2D731AEEE48100A5AF23 /* ListTableViewController.swift */; };
+		BEFF2D761AEEE56500A5AF23 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2D751AEEE56500A5AF23 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		BEFF2D631AEEE18600A5AF23 /* AlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFF2D681AEEE18600A5AF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEFF2D691AEEE18600A5AF23 /* AlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlistTests.swift; sourceTree = "<group>"; };
+		BEFF2D731AEEE48100A5AF23 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		BEFF2D751AEEE56500A5AF23 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				BEFF2D501AEEE18600A5AF23 /* AppDelegate.swift */,
+				BEFF2D731AEEE48100A5AF23 /* ListTableViewController.swift */,
 				BEFF2D551AEEE18600A5AF23 /* ViewController.swift */,
+				BEFF2D751AEEE56500A5AF23 /* Model.swift */,
 				BEFF2D571AEEE18600A5AF23 /* Main.storyboard */,
 				BEFF2D5A1AEEE18600A5AF23 /* Images.xcassets */,
 				BEFF2D5C1AEEE18600A5AF23 /* LaunchScreen.xib */,
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFF2D761AEEE56500A5AF23 /* Model.swift in Sources */,
 				BEFF2D561AEEE18600A5AF23 /* ViewController.swift in Sources */,
 				BEFF2D511AEEE18600A5AF23 /* AppDelegate.swift in Sources */,
 				BEFF2D541AEEE18600A5AF23 /* Alist.xcdatamodeld in Sources */,
+				BEFF2D741AEEE48100A5AF23 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 				BEFF2D6F1AEEE18600A5AF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEFF2D701AEEE18600A5AF23 /* Build configuration list for PBXNativeTarget "AlistTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				BEFF2D721AEEE18600A5AF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
